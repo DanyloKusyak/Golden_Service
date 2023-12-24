@@ -9,12 +9,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Golden</title>
 </head>
 
 <body>
+    
     <header class="header">
+        <div class="container">
         <a href="./index.html" class="logo">Golden</a>
         <nav class="navigation">
             <ul class="nav-list">
@@ -35,8 +38,10 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </header>
     <main class="main">
+        <div class="container">
         <h1 class="main-title">Services</h1>
         <ul class="main-list">
             <li class="main-list-item">
@@ -58,17 +63,23 @@
                     posuere odio in tincidunt.</p>
             </li>
         </ul>
+    </div>
     </main>
     <footer class="footer"> 
+        <div class="container">
         <h2 class="footer-title">Contact us</h2>
         <form class="footer-form">
-            <input type="text" name="username" placeholder="Your Name *" required class="form-input"> <br>
-            <input type="email" name="email" placeholder="Your E-mail *" required class="form-input"> <br>
-            <input type="text" name="subject" placeholder="subject" required class="form-input"> <br>
+            <div class="footer-inputs">
+            <input type="text" name="username" placeholder="Your Name *" required class="form-input"> 
+            <input type="email" name="email" placeholder="Your E-mail *" required class="form-input"> 
+            <input type="text" name="subject" placeholder="subject" required class="form-input"> 
             <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your message *" required class="form-comment"></textarea>
-            <button type="submit" class="form-btn-submit">Send Massage</button> <br>
+        </div>
+            <button type="submit" class="form-btn-submit">Send Massage</button> 
         </form>
+    </div>
     </footer>
+
 </body>
 
 </html>
